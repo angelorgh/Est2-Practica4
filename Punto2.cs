@@ -4,10 +4,11 @@ namespace Est2_Practica4
 {
     public class Punto2
     {
-        static int[] countingSort(int[] arr) 
+        public static int[] countingSort(int[] arr) 
         {
             var numbers = new int[100];
             var result = new int[arr.Length];
+            
             for (int i = 0; i < arr.Length; i++)
             {
                 numbers[arr[i]]++;
